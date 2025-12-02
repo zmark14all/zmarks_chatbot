@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../assets/chatbot";
-//import { chatbot } from "supersimpledev";
+import { chatbot } from "supersimpledev";
 
 export function ChatInput({ chatMessages, setChatMessages }) {
   const [inputtext, setInputText] = useState("");
