@@ -20,7 +20,7 @@ export function ChatMesage({ message, sender }) {
       ) : (
         <>
           {sender === "Bot" && (
-            <img src={robotimage} width="60" className="pic-bot" />
+           <img src={process.env.PUBLIC_URL + "/assets/h.png"} width="60" className="pic-bot" />
           )}
           {message}
           {sender === "user" && (
